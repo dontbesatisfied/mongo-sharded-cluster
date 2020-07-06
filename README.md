@@ -2,9 +2,9 @@
 
 ##### 각 인스턴스에 아래의 명령어로 서버 실행
 
-mongod --config ./mongod-configsvr1.conf
-mongod --config ./mongod-configsvr2.conf
-mongod --config ./mongod-configsvr3.conf
+sudo mongod --config ./mongod-configsvr1.conf
+sudo mongod --config ./mongod-configsvr2.conf
+sudo mongod --config ./mongod-configsvr3.conf
 
 ##### 레플리카 셋 설정
 
